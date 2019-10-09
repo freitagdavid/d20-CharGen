@@ -23,7 +23,101 @@ const FiveESheet = props => {
     },
     savingThrows: {
       strength: {
-        active: true,
+        active: false,
+        value: 0
+      },
+      dexterity: {
+        active: false,
+        value: 0
+      },
+      constitution: {
+        active: false,
+        value: 0
+      },
+      intelligence: {
+        active: false,
+        value: 0
+      },
+      wisdom: {
+        active: false,
+        value: 0
+      },
+      charisma: {
+        active: false,
+        value: 0
+      }
+    },
+    skills: {
+      acrobatics: {
+        active: false,
+        value: 0
+      },
+      animalHandling: {
+        active: false,
+        value: 0
+      },
+      arcane: {
+        active: false,
+        value: 0
+      },
+      athletics: {
+        active: false,
+        value: 0
+      },
+      deception: {
+        active: false,
+        value: 0
+      },
+      history: {
+        active: false,
+        value: 0
+      },
+      insight: {
+        active: false,
+        value: 0
+      },
+      intimidation: {
+        active: false,
+        value: 0
+      },
+      investigation: {
+        active: false,
+        value: 0
+      },
+      medicine: {
+        active: false,
+        value: 0
+      },
+      nature: {
+        active: false,
+        value: 0
+      },
+      perception: {
+        active: false,
+        value: 0
+      },
+      performance: {
+        active: false,
+        value: 0
+      },
+      persuasion: {
+        active: false,
+        value: 0
+      },
+      religion: {
+        active: false,
+        value: 0
+      },
+      selightOfHand: {
+        active: false,
+        value: 0
+      },
+      stealth: {
+        active: false,
+        value: 0
+      },
+      survival: {
+        active: false,
         value: 0
       }
     }
@@ -102,7 +196,7 @@ const StyledFiveESheet = styled(FiveESheet)`
     grid-template-rows: auto auto;
     #charName {
       grid-row-start: 1;
-      grid-row-end: 3;
+      grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 3;
     }
